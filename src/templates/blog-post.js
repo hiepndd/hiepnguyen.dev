@@ -165,28 +165,10 @@ class BlogPostTemplate extends React.Component {
               )}
             </header>
             <div dangerouslySetInnerHTML={{ __html: html }} />
-            <footer>
-              <p>
-                <a href={discussUrl} target="_blank" rel="noopener noreferrer">
-                  Discuss on Twitter
-                </a>
-                {` • `}
-                <a href={editUrl} target="_blank" rel="noopener noreferrer">
-                  Edit on GitHub
-                </a>
-              </p>
-            </footer>
+            <footer />
           </article>
         </main>
         <aside>
-          <div
-            style={{
-              margin: '90px 0 40px 0',
-              fontFamily: systemFont,
-            }}
-          >
-            <Signup />
-          </div>
           <h3
             style={{
               fontFamily: 'Montserrat, sans-serif',
@@ -201,7 +183,7 @@ class BlogPostTemplate extends React.Component {
               }}
               to={'/'}
             >
-              Overreacted
+              Hi, I am a Software Engineer
             </Link>
           </h3>
           <Bio />
