@@ -3,7 +3,7 @@ module.exports = {
     title: 'Hi, I am a Software Engineer',
     author: 'Hiep Nguyen',
     description: 'Personal blog by Hiep Nguyen. A Gopher who is using Emacs.',
-    siteUrl: 'https://hiepnguyen.dev',
+    siteUrl: 'localhost:8000',
     social: {
       twitter: '@dan_abramov',
     },
